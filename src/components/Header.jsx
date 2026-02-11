@@ -7,105 +7,58 @@ const Header = () => {
             <nav className="nxl-navigation">
                 <div className="navbar-wrapper">
                     <div className="m-header">
-                        <Link to="/" className="b-brand">
-                            <img src="assets/images/logo-full.png" alt="" className="logo logo-lg" />
-                            <img src="assets/images/logo-abbr.png" alt="" className="logo logo-sm" />
+                        <Link to="index.html" className="b-brand">
+                            {/* ========   change your logo hear   ============ */}
+                            <img src="assets/images/logo-full.png" alt className="logo logo-lg" />
+                            <img src="assets/images/logo-abbr.png" alt className="logo logo-sm" />
                         </Link>
                     </div>
-
                     <div className="navbar-content">
                         <ul className="nxl-navbar">
                             <li className="nxl-item nxl-caption">
                                 <label>Navigation</label>
                             </li>
-
-                            {/* Dashboards */}
                             <li className="nxl-item nxl-hasmenu">
-                                <button type="button" className="nxl-link">
+                                <Link to="javascript:void(0);" className="nxl-link">
                                     <span className="nxl-micon"><i className="feather-airplay" /></span>
-                                    <span className="nxl-mtext">Dashboards</span>
-                                    <span className="nxl-arrow"><i className="feather-chevron-right" /></span>
-                                </button>
-
+                                    <span className="nxl-mtext">Dashboards</span><span className="nxl-arrow"><i className="feather-chevron-right" /></span>
+                                </Link>
                                 <ul className="nxl-submenu">
-                                    <li className="nxl-item">
-                                        <Link className="nxl-link" to="/">CRM</Link>
-                                    </li>
-                                    <li className="nxl-item">
-                                        <Link className="nxl-link" to="/analytics">Analytics</Link>
-                                    </li>
+                                    <li className="nxl-item"><Link className="nxl-link" to="index.html">CRM</Link></li>
+                                    <li className="nxl-item"><Link className="nxl-link" to="analytics.html">Analytics</Link></li>
                                 </ul>
                             </li>
-
-                            {/* Applications */}
                             <li className="nxl-item nxl-hasmenu">
-                                <button type="button" className="nxl-link">
+                                <Link to="javascript:void(0);" className="nxl-link">
                                     <span className="nxl-micon"><i className="feather-send" /></span>
-                                    <span className="nxl-mtext">Applications</span>
-                                    <span className="nxl-arrow"><i className="feather-chevron-right" /></span>
-                                </button>
-
+                                    <span className="nxl-mtext">Applications</span><span className="nxl-arrow"><i className="feather-chevron-right" /></span>
+                                </Link>
                                 <ul className="nxl-submenu">
-                                    <li className="nxl-item">
-                                        <Link className="nxl-link" to="/Tasks">Tasks</Link>
-                                    </li>
+                                    <li className="nxl-item"><Link className="nxl-link" to="/Tasks">Tasks</Link></li>
                                 </ul>
                             </li>
-
-                            {/* Forms */}
                             <li className="nxl-item nxl-hasmenu">
-                                <button type="button" className="nxl-link">
+                                <Link to="javascript:void(0);" className="nxl-link">
                                     <span className="nxl-micon"><i className="feather-at-sign" /></span>
-                                    <span className="nxl-mtext">Forms</span>
-                                    <span className="nxl-arrow"><i className="feather-chevron-right" /></span>
-                                </button>
-
+                                    <span className="nxl-mtext">Forms</span><span className="nxl-arrow"><i className="feather-chevron-right" /></span>
+                                </Link>
                                 <ul className="nxl-submenu">
-                                    <li className="nxl-item">
-                                        <Link className="nxl-link" to="/Forms">Form 1</Link>
-                                    </li>
+                                    <li className="nxl-item"><Link className="nxl-link" to="/Forms">Form 1</Link></li>
                                 </ul>
                             </li>
-
-                            {/* Views */}
                             <li className="nxl-item nxl-hasmenu">
-                                <button type="button" className="nxl-link">
+                                <Link to="javascript:void(0);" className="nxl-link">
                                     <span className="nxl-micon"><i className="feather-layout" /></span>
-                                    <span className="nxl-mtext">Views</span>
-                                    <span className="nxl-arrow"><i className="feather-chevron-right" /></span>
-                                </button>
-
+                                    <span className="nxl-mtext">Views</span><span className="nxl-arrow"><i className="feather-chevron-right" /></span>
+                                </Link>
                                 <ul className="nxl-submenu">
-                                    <li className="nxl-item">
-                                        <Link className="nxl-link" to="/Tables">Tables</Link>
-                                    </li>
+                                    <li className="nxl-item"><Link className="nxl-link" to="/Tables">Tables</Link></li>
                                 </ul>
                             </li>
                         </ul>
-
-                        <div className="card text-center">
-                            <div className="card-body">
-                                <i className="feather-sunrise fs-4 text-dark" />
-                                <h6 className="mt-4 text-dark fw-bolder">Downloading Center</h6>
-                                <p className="fs-11 my-3 text-dark">
-                                    Duralux is a production ready CRM to get started up and running easily.
-                                </p>
-
-                                <a
-                                    href="https://www.themewagon.com/themes/Duralux-admin"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="btn btn-primary text-dark w-100"
-                                >
-                                    Download Now
-                                </a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </nav>
-
             {/*! ================================================================ !*/}
             {/*! [End]  Navigation Manu !*/}
             {/*! ================================================================ !*/}
