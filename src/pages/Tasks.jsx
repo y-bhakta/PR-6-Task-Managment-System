@@ -14,7 +14,7 @@ const Tasks = ({ handelSubmit, handelChange, task }) => {
                                         <h2>Task App</h2>
                                         <div className="mb-3">
                                             <label htmlFor="exampleInputEmail1" className="form-label">Task Name</label>
-                                            <input type="text" name='task' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value={task.task || ''} onChange={handelChange} />
+                                            <input type="text" name='task' className="form-control" value={task.task || ''} onChange={handelChange} />
                                         </div>
                                         <button type="submit" className="btn btn-primary">Add Task</button>
                                     </form>
